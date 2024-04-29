@@ -1,5 +1,5 @@
 # Classificados de Veículos
-<img src="https://cdn.discordapp.com/attachments/1221951787318378607/1221954522549719060/image.png?ex=661474d4&is=6601ffd4&hm=36309bbfbabb8306423a48ad5909e2f9c4094a969b238945fd3980ddc02c5c4b&" alt="Imagem da aplicação de classificados"/>
+<img src="https://github.com/maylajamile/github-images/blob/041414446d872b86a4a95f58696d7142d7b2046f/image6.png" alt="Imagem da aplicação de classificados"/>
 <p>Esta aplicação é responsável por criar um sistema de classificados de veículos, utilizando uma fila de mensagens para processamento assíncrono. Ao adicionar um novo veículo, uma mensagem é criada e colocada na fila. Essa mensagem contém as informações do veículo a ser cadastrado. Em seguida, o consumidor da fila consome essa mensagem, recupera as informações do veículo e persiste os dados no banco de dados criado em memória, utilizando o H2. Por fim, a lista atualizada de veículos é exibida na tabela de classificados.</p>
 
 <p>Para esse projeto foi utilizado o provedor JMS ActiveMQ, então será necessário ter essa ferramenta instalada para a execução, você pode obtê-la em: http://activemq.apache.org/</p>
